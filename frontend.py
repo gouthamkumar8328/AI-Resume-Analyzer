@@ -59,9 +59,9 @@ if uploaded_file:
 
             try:
                 response = requests.post(
-                    "http://127.0.0.1:8000/summarize-pdf",
-                    files=files
-                )
+                "https://ai-resume-analyzer-bfw0.onrender.com/summarize-pdf",
+                files=files
+            )
 
                 if response.status_code != 200:
                     st.error("Backend Error")
