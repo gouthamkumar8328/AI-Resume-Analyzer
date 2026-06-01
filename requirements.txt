@@ -1,1 +1,9 @@
+openaifastapi
+uvicorn
+python-multipart
+pymupdf
 openai
+streamlit
+requests
+pandas
+plotly
